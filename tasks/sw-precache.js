@@ -27,12 +27,15 @@ var defaultOptions = {
     ignoreUrlParametersMatching: undefined,
     importScripts: undefined,
     maximumFileSizeToCacheInBytes: undefined,
-    navigateFallback: undefined,
     stripPrefix: undefined,
     replacePrefix: undefined,
     staticFileGlobs: undefined,
     templateFilePath: undefined,
     verbose: undefined,
+
+    navigateFallback: undefined,
+	navigateFallbackWhitelist: undefined,
+	runtimeCaching: undefined,
 
     /**
      * grunt-sw-precache specific options
