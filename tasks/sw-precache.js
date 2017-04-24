@@ -93,6 +93,8 @@ module.exports = function (grunt) {
             taskComplete();
         };
 
+        console.error('sw-precache options', options.config);
+
         swPrecache.write(workerPath, options.config, function (error) {
 
             if (error) grunt.fail.warn(error);
