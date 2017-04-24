@@ -1,0 +1,34 @@
+{
+  "name": "grunt-sw-precache",
+  "version": "1.0.4",
+  "description": "A Grunt task for generating service workers using sw-precache.",
+  "homepage": "https://github.com/japrescott/grunt-sw-precache",
+  "repository": {
+    "type": "hg",
+    "url": "https://github.com/japrescott/grunt-sw-precache"
+  },
+  "bugs": {
+    "url": "https://github.com/japrescott/grunt-sw-precache/issues"
+  },
+  "keywords": [
+    "gruntplugin",
+    "service worker",
+    "grunt",
+    "sw",
+    "precache",
+    "service",
+    "worker"
+  ],
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "sw-precache": "^5.x.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morris Allison III <author@morrisallison.com>",
+  "license": "MIT"
+}
