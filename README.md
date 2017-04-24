@@ -1,5 +1,7 @@
 # grunt-sw-precache
 
+This is a fork of the grunt-sw-precache by Morris Allison. It contains recent changes to sw-precache and supports options like runtimeCache
+
 A [Grunt](http://gruntjs.com) task for generating service workers using [sw-precache](https://www.npmjs.com/package/sw-precache).
 
 [![npm Version](https://img.shields.io/npm/v/grunt-sw-precache.svg?style=flat-square)](https://www.npmjs.com/package/grunt-sw-precache)
@@ -14,17 +16,7 @@ The guide explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfi
 
 ## Installation
 
-grunt-sw-precache can be installed using the following command:
-
-```bash
-$ npm install grunt-sw-precache --save-dev
-```
-
-To enable grunt-sw-precache, add the following line to your `Gruntfile`:
-
-```javascript
-grunt.loadNpmTasks('grunt-sw-precache');
-```
+if you want to use this fork of grunt-sw-precache, directly refer to this repo japrescott/grunt-sw-precache.git within your package.json
 
 ## Configuration
 
